@@ -1,0 +1,43 @@
+page-display {
+
+    .con{
+
+        background-image: url("../assets/imgs/bg.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    
+        }
+
+        .navBar1{
+            text-align: center;
+            font-style:initial;
+    
+         }
+         .pic{
+            height: 50%;
+            width: 50%;
+        
+         }
+         [ion-card-header]{
+             
+            color: whitesmoke;
+            text-align: center
+         }
+
+         .item h1,h2{
+            color:whitesmoke
+        }
+
+        .card{
+
+
+            padding: 10px;
+            margin: 10px;
+            background: rgba(255, 255, 255, 0.4);
+            color:whitesmoke;
+            text-align:center; 
+
+
+        }
+
+}

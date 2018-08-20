@@ -1,3 +1,37 @@
 page-home {
 
-}
+    .con{
+
+        background-image: url("../assets/imgs/bg.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
+
+
+
+        }
+   
+
+        .list{
+            margin: 10px;
+        }
+        [ion-item]{
+            padding: 10px;
+            margin: 10px;
+            background: rgba(255, 255, 255, 0.4);
+            color:black;
+        }
+        .item h3{
+            color:whitesmoke
+        }
+        .list-header{
+
+            background-color: rgba(0.0,0.0,0.0,0.4);
+            color:whitesmoke
+
+
+        }
+        
+        }
+
+    

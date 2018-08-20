@@ -1,14 +1,26 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content class="con" padding >
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  
+  <ion-list no-lines>
+    <ion-list-header class="list-header">
+      CodeTribe Curriculum
+    </ion-list-header>
+
+    
+ 
+    <button ion-item *ngFor="let course of arrCourses;" (click)="getData(course)" >
+      <ion-icon name="{{course.icon}}" item-left></ion-icon>
+
+      <h1>{{course.title}}</h1>
+      <h2>Duration:{{course.weeks}}weeks</h2>
+
+      <h2>Lesson</h2>
+
+      <div *ngFor="let lesson of course.lessons;">
+           
+          <h3>{{lesson.title}}</h3>
+      
+      </div>
+      </button>   
+    </ion-list>
 </ion-content>
